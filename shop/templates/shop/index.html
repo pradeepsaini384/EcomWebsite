@@ -139,7 +139,7 @@ $('.divpr').on('click', 'button.cart', function() {
     updateCart(cart);
 });
 //Add Popover to cart
-$('#popcart').popover();
+$('[data-toggle="popover"]').popover();
 updatePopover(cart);
 
 function updatePopover(cart) {
